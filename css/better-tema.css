@@ -3,4 +3,31 @@
     background-size: cover;
     background-position: center;
     color: #fff;
-  }
+}
+
+.social a[href='http://www.facebook.com'] {
+    background: url('../img/icone-face.png');
+    background-size: 36px 36px;
+}
+
+.social a[href='http://www.twitter.com'] {
+    background: url('../img/icone-twitter.png');
+    background-size: 36px 36px;
+}
+
+.social a[href='http://www.instagram.com'] {
+    background: url('../img/icone-insta.png');
+    background-size: 36px 36px;
+}
+
+.social a {
+    display: block;
+    height: 36px;
+    width: 36px;
+    text-indent: -9999px;
+}
+
+.social li {
+    display: inline-block;
+    margin-left: 1em;
+}
